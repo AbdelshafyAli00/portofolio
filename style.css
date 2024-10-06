@@ -1,0 +1,277 @@
+
+ :root{
+  --primary-color :#033b4a;
+  --secondary-color :#20c997;
+  --gray :#4a4a4d;
+  --bg-primary :#ecf0f3;
+ }
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+ }
+ html{
+  scroll-behavior: smooth;
+ }
+ ul{
+  list-style-type: none;
+ }
+ a{
+  text-decoration: none;
+ }
+ header{
+  background-color: var(--bg-primary);
+  height: 100vh;
+ }
+ .navbar{
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+ 
+ }
+ nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 1.5rem 2rem;
+ }
+ ul{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  padding: 5px;
+ }
+ a{
+  padding: 0 15px;
+  color: var(--primary-color);
+  font-weight: 600;
+ }
+ #logo{
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 600;
+ }
+ .headercontent{
+  display: grid;
+  align-items: center;
+  padding: 5rem 2rem 0 ;
+  grid-template-columns: 1.5fr 1fr;
+  max-width: 1100px;
+  margin: auto;
+  height: 100%;
+  
+ }
+ img{
+  max-width: 250px;
+  
+ }
+ .txt{
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 700;
+ }
+ h1{
+  font-size: 60px;
+  color: var(--primary-color);
+  text-shadow: 3px 3px 3px rgba(0,0, 0, 0.2);
+  margin-top: 10px;
+ }
+ .title{
+  font-size: 20px;
+  color: var(--primary-color);
+  margin: 10px 0;
+  font-weight: 500;
+ }
+ .social{
+  margin: 1rem 0 2rem;
+ }
+ .social a i{
+  font-size: 18px;
+  padding: 10px;
+  background-color: #033b4a;
+  color: #fff;
+  border-radius: 50%;
+ }
+ .social a i :hover{
+  transform: scale(0.85);
+  transition: all 0.3s ease;
+ }
+ .btn{
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 8px ;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+ }
+ .btn:hover{
+  background-color: #15a076;
+ }
+ .contenttext{
+  margin-bottom: 3rem;
+ }
+ .container{
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem ;
+ }
+ #about ,#skills ,#services{
+  padding: 6rem 0;
+ }
+ h2 ,.h2, h2 {
+  text-align: center;
+  font-size: 38px;
+  color: var(--primary-color);
+  font-weight: 600;
+  letter-spacing: 1px ;
+ }
+ hr {
+  width: 100px;
+  height: 3px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 5px auto 0;
+ }
+ .aboutcontent{
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 3rem;
+ }
+ h3{
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+ }
+ .txtme{
+  color: var(--secondary-color);
+ }
+ .col1 p{
+  color: var(--gray);
+  margin-bottom: 20px;
+  line-height: 1.8;
+  
+ }
+ .col2 p{
+  color: var(--gray);
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+ }
+ .text2{
+  color: var(--secondary-color);
+ }
+ .row img{
+  max-width: 40px;
+ }
+ #skills{
+  background-color: var(--primary-color);
+ }
+ #skills h2{
+  color: #fff;
+ }
+ .skills{
+  margin-top: 2rem ;
+  background-color: #0f272d;
+ }
+ .row{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  text-align: center;
+ }
+ .item{
+  color: #fff;
+  background-color:black;
+  margin: 20px;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+ }
+ .item:nth-child(3) img{
+  max-width: 80px;
+ }
+ .item:hover{
+  box-shadow: 10px 10px 10px #00f4ab0c;
+ }
+ .txt3{
+  color: var(--secondary-color);
+ }
+ #services #contact{
+  background-color: #00f4ab0c;
+ }
+
+ .row2{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  margin-top: 4rem;
+  text-align: center;
+  column-gap: 2rem;
+
+ }
+ .item{
+  background-color: #fff;
+  padding: 30px 15px;
+  max-height: 1900px;
+  box-shadow: 2px 2px 5px rgba(0, 0,0, 0.2);
+  border-radius: 5px;
+  transition: all 0.3 ease ;
+
+ }
+ .item p{
+  color: black;
+  font-size: 14px;
+ }
+ .item h3{
+  margin: 15px 0;color: var(--primary-color);
+
+ }
+ .item:hover{
+  transform: scale(1.04);
+ }
+ #contact{
+  padding: 4rem 0;
+ }
+ .gh{
+  text-align: center;
+  margin:50px 
+ }
+ .txt4{
+  color: var(--secondary-color);
+ }
+ .rowee{
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  background-color: #fff;
+  box-shadow: 3px 3px 20px rgba(0,0, 0, 0.2);
+  padding: 2rem 3rem;
+  column-gap: 2rem;
+ }
+ input ,textarea{
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #bbb;
+  background-color: #00f4ab0c;
+ }
+ #footer{
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+ }
+
+
+ 
+
+ 
+
